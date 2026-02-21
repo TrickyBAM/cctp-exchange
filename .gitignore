@@ -1,0 +1,24 @@
+# Dependencies
+frontend/node_modules/
+contracts/lib/
+
+# Build artifacts
+frontend/.next/
+contracts/out/
+contracts/cache/
+
+# Environment files (real secrets only — .env.local has placeholders so it's included)
+.env
+.env.*.local
+!frontend/.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Debug logs
+npm-debug.log*
