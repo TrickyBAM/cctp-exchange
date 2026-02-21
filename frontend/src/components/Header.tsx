@@ -8,7 +8,7 @@ export function Header() {
         <div className="flex items-center gap-3">
           <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600 font-bold text-white">C</div>
           <div>
-            <h1 className="text-lg font-bold text-white">CCTP.Exchange</h1>
+            <h1 className="text-lg font-bold text-white">CCTP.Valid</h1>
             <p className="text-xs text-gray-400">USDC Bridge to XDC</p>
           </div>
         </div>

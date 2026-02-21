@@ -1,12 +1,12 @@
 #!/bin/bash
 
 #############################################
-#  CCTP Exchange — Step 1: Install Foundry  #
+#  CCTP Valid — Step 1: Install Foundry  #
 #############################################
 
 clear
 echo "============================================"
-echo "  CCTP Exchange — Installing Foundry"
+echo "  CCTP Valid — Installing Foundry"
 echo "============================================"
 echo ""
 echo "This will install Foundry (the Solidity toolkit)"

@@ -1,12 +1,12 @@
 #!/bin/bash
 
 ##################################################
-#  CCTP Exchange — Step 2: Build Smart Contracts #
+#  CCTP Valid — Step 2: Build Smart Contracts #
 ##################################################
 
 clear
 echo "============================================"
-echo "  CCTP Exchange — Building Smart Contracts"
+echo "  CCTP Valid — Building Smart Contracts"
 echo "============================================"
 echo ""
 

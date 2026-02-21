@@ -1,12 +1,12 @@
 #!/bin/bash
 
 ##################################################
-#  CCTP Exchange — Step 4: Open in Browser       #
+#  CCTP Valid — Step 4: Open in Browser       #
 ##################################################
 
 clear
 echo "============================================"
-echo "  CCTP Exchange — Opening Browser"
+echo "  CCTP Valid — Opening Browser"
 echo "============================================"
 echo ""
 

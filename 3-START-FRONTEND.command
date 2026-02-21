@@ -1,12 +1,12 @@
 #!/bin/bash
 
 ##################################################
-#  CCTP Exchange — Step 3: Start Frontend        #
+#  CCTP Valid — Step 3: Start Frontend        #
 ##################################################
 
 clear
 echo "============================================"
-echo "  CCTP Exchange — Starting Frontend"
+echo "  CCTP Valid — Starting Frontend"
 echo "============================================"
 echo ""
 
@@ -87,7 +87,7 @@ echo "============================================"
 echo "  Step 2/2: Starting Development Server"
 echo "============================================"
 echo ""
-echo "🚀 Starting CCTP Exchange at http://localhost:3000"
+echo "🚀 Starting CCTP Valid at http://localhost:3000"
 echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo "  The app is running! Keep this window open."

@@ -4,7 +4,7 @@ import { Providers } from "@/components/Providers";
 import { Header } from "@/components/Header";
 
 export const metadata: Metadata = {
-  title: "CCTP.Exchange | USDC Bridge to XDC",
+  title: "CCTP.Valid | USDC Bridge to XDC",
   description: "Bridge USDC from Ethereum, Base, and Arbitrum to XDC Network using Circle CCTP V2.",
 };
 

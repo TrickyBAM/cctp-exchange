@@ -1,6 +1,6 @@
 #!/bin/bash
 # ============================================
-# CCTP.Exchange — Push to GitHub
+# CCTP.Valid — Push to GitHub
 # Double-click this file on your Mac to run
 # ============================================
 
@@ -9,7 +9,7 @@ cd "$(dirname "$0")"
 
 echo ""
 echo "============================================"
-echo "  CCTP.Exchange — Push to GitHub"
+echo "  CCTP.Valid — Push to GitHub"
 echo "============================================"
 echo ""
 
@@ -65,7 +65,7 @@ echo ""
 echo "📂 Initializing fresh git repository..."
 git init
 git add -A
-git commit -m "Initial commit — CCTP.Exchange Phase 1 MVP
+git commit -m "Initial commit — CCTP.Valid Phase 1 MVP
 
 Smart contracts (Foundry/Solidity), Next.js frontend,
 tiered fee system, CCTP V2 bridge from ETH/Base/Arb to XDC."
@@ -84,7 +84,7 @@ if gh repo view "$GH_USER/cctp-exchange" &> /dev/null; then
     git remote remove origin 2>/dev/null
     git remote add origin "https://github.com/$GH_USER/cctp-exchange.git"
 else
-    gh repo create cctp-exchange --public --source=. --remote=origin --description "CCTP.Exchange — USDC Bridge from Ethereum, Base & Arbitrum to XDC Network using Circle CCTP V2"
+    gh repo create cctp-exchange --public --source=. --remote=origin --description "CCTP.Valid — USDC Bridge from Ethereum, Base & Arbitrum to XDC Network using Circle CCTP V2"
 fi
 
 echo ""
