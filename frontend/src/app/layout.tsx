@@ -1,21 +1,18 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Providers } from "@/components/Providers";
 import { Header } from "@/components/Header";
 
 export const metadata: Metadata = {
-  title: "CCTP.Valid | USDC Bridge to XDC",
-  description: "Bridge USDC from Ethereum, Base, and Arbitrum to XDC Network using Circle CCTP V2.",
+  title: "CCTP.Valid | Locked Product Demo",
+  description: "A preserved, non-transactional product demo for a proposed USDC bridge to XDC.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body className="font-sans antialiased">
-        <Providers>
-          <Header />
-          <main className="min-h-[calc(100vh-73px)]">{children}</main>
-        </Providers>
+        <Header />
+        <main className="min-h-[calc(100vh-73px)]">{children}</main>
       </body>
     </html>
   );
