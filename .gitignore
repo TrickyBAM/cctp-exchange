@@ -7,10 +7,10 @@ frontend/.next/
 contracts/out/
 contracts/cache/
 
-# Environment files (real secrets only — .env.local has placeholders so it's included)
+# Environment files (never track local env; frontend/.env.example shows the variables)
 .env
+.env.local
 .env.*.local
-!frontend/.env.local
 
 # OS files
 .DS_Store
